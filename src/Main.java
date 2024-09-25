@@ -3,18 +3,18 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
        Scanner console = new Scanner(System.in);
-    /*        int age1 = 18;
+            int age1 = 18;
             System.out.println("Задача 1");
             System.out.println("-----------------------");
 
             System.out.print("Введите свой возраст для определения совершеннолетия: ");
             int age = console.nextInt();
-            if (age >= 18) {
+            if (age >= age1) {
                 System.out.println("Если возраст человека равен " + age + " то он совершеннолетний");
-            }else if (age <18){
+            }else if (age < age1){
             System.out.println("Если возраст человека меньше " + age + " он не достиг совершеннолетия, нужно немного подождать");
         }
-        System.out.println("-----------------------" + "\n" + "\n");
+        System.out.println("-----------------------" + "\n");
 
         System.out.print("Введите текущую температуру на улице: ");
         int cells = console.nextInt();
@@ -40,7 +40,6 @@ public class Main {
         }
         System.out.println("-----------------------");
 
-        int ageEdu = 123;
         System.out.println("Задача 4");
         System.out.println("-----------------------");
         System.out.print("Введите ваш возраст для определения, куда вам нужно ходить: ");
@@ -86,7 +85,7 @@ public class Main {
         } else if (passengers < maxPass && passengers > 60) {
             System.out.println(", в позде осталось " + (stand - passengers) + " стоячих мест(а/о)");
         }
-        */
+
         System.out.println("Задача 7");
         System.out.println("-----------------------");
         System.out.print("Введите число x: ");
