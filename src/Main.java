@@ -33,7 +33,7 @@ public class Main {
         System.out.print("Введите скорость вашего автомобиля: ");
         int speed = console.nextInt();
         System.out.print("Если скорость " + speed);
-        if (speed < 60) {
+        if (speed <= 60) {
             System.out.println(" то можно ездить спокойно");
         } else if (speed > 60) {
             System.out.println(" то придется заплатить штраф");
@@ -61,7 +61,7 @@ public class Main {
         System.out.print("Введите ваш возраст для определения возможности кататься на аттракционе: ");
         int ageToDrive = console.nextInt();
         System.out.print("Если возраст ребенка равен " + ageToDrive);
-        if (ageToDrive < 5) {
+        if (ageToDrive <= 5) {
             System.out.println(" то ему нельзя кататься на аттракционе");
         } else if (ageToDrive > 5 && ageToDrive < 14) {
             System.out.println(" то ему можно кататься на аттракционе в сопровождении взрослого");
