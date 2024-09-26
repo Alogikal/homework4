@@ -17,12 +17,12 @@ public class Main {
         System.out.println("-----------------------" + "\n");
 
         System.out.print("Введите текущую температуру на улице: ");
-        int cells = console.nextInt();
+        int temperature = console.nextInt();
         System.out.println("Задача 2");
         System.out.println("-----------------------");
-            if (cells < 5) {
+            if (temperature < 5) {
                 System.out.println("На улице холодно, нужно надеть шапку");
-    } else if (cells > 5) {
+    } else if (temperature > 5) {
                 System.out.println("Сегодня тепло, можно идти без шапки");
     }
         System.out.println("-----------------------");
