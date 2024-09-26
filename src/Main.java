@@ -3,26 +3,26 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
        Scanner console = new Scanner(System.in);
-    /*        int age1 = 18;
+            int age1 = 18;
             System.out.println("Задача 1");
             System.out.println("-----------------------");
 
             System.out.print("Введите свой возраст для определения совершеннолетия: ");
             int age = console.nextInt();
-            if (age >= 18) {
+            if (age >= age1) {
                 System.out.println("Если возраст человека равен " + age + " то он совершеннолетний");
-            }else if (age <18){
+            }else if (age < age1){
             System.out.println("Если возраст человека меньше " + age + " он не достиг совершеннолетия, нужно немного подождать");
         }
-        System.out.println("-----------------------" + "\n" + "\n");
+        System.out.println("-----------------------" + "\n");
 
         System.out.print("Введите текущую температуру на улице: ");
-        int cells = console.nextInt();
+        int temperature = console.nextInt();
         System.out.println("Задача 2");
         System.out.println("-----------------------");
-            if (cells < 5) {
+            if (temperature < 5) {
                 System.out.println("На улице холодно, нужно надеть шапку");
-    } else if (cells > 5) {
+    } else if (temperature > 5) {
                 System.out.println("Сегодня тепло, можно идти без шапки");
     }
         System.out.println("-----------------------");
@@ -33,14 +33,13 @@ public class Main {
         System.out.print("Введите скорость вашего автомобиля: ");
         int speed = console.nextInt();
         System.out.print("Если скорость " + speed);
-        if (speed < 60) {
+        if (speed <= 60) {
             System.out.println(" то можно ездить спокойно");
         } else if (speed > 60) {
             System.out.println(" то придется заплатить штраф");
         }
         System.out.println("-----------------------");
 
-        int ageEdu = 123;
         System.out.println("Задача 4");
         System.out.println("-----------------------");
         System.out.print("Введите ваш возраст для определения, куда вам нужно ходить: ");
@@ -62,7 +61,7 @@ public class Main {
         System.out.print("Введите ваш возраст для определения возможности кататься на аттракционе: ");
         int ageToDrive = console.nextInt();
         System.out.print("Если возраст ребенка равен " + ageToDrive);
-        if (ageToDrive < 5) {
+        if (ageToDrive <= 5) {
             System.out.println(" то ему нельзя кататься на аттракционе");
         } else if (ageToDrive > 5 && ageToDrive < 14) {
             System.out.println(" то ему можно кататься на аттракционе в сопровождении взрослого");
@@ -86,7 +85,7 @@ public class Main {
         } else if (passengers < maxPass && passengers > 60) {
             System.out.println(", в позде осталось " + (stand - passengers) + " стоячих мест(а/о)");
         }
-        */
+
         System.out.println("Задача 7");
         System.out.println("-----------------------");
         System.out.print("Введите число x: ");
